@@ -23,22 +23,22 @@ body {
 
 .container {
   margin: auto;
-  max-width: 1110px;
+  max-width: 69.375rem;
 }
 
 .nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 15px 0;
+  padding: 0.9375rem 0;
 }
 
 .logo {
   font-family: "Montserrat Bold";
   font-style: normal;
   font-weight: 700;
-  font-size: 25px;
-  line-height: 30px;
+  font-size: 1.5625rem;
+  line-height: 1.875rem;
   color: #101010;
   text-decoration: none;
 }
@@ -66,11 +66,126 @@ body {
 }
 
 .shopping-cart-icon {
-  width: 24px;
-  height: 25px;
+  width: 1.5rem;
+  height: 1.5625rem;
 }
 
 .heart {
-  width: 23px;
-  height: 20px;
+  width: 1.4375rem;
+  height: 1.25rem;
+}
+
+.headphones {
+  margin-top: 1.75rem;
+}
+
+.headphones-title {
+  margin-bottom: 1.25rem;
+  font-family: "Montserrat Semibold";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  color: #838383;
+}
+
+.headphones-cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.headphones-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-basis: 35%;
+  padding: 0.9375rem 1.125rem 1.6875rem 1.375rem;
+  background: #ffffff;
+  box-shadow: 0rem 0rem 1.25rem rgba(0, 0, 0, 0.1);
+  border-radius: 1.875rem;
+}
+
+.card-picture {
+  width: 13.75rem;
+  height: 14.8125rem;
+}
+
+.card-content {
+  margin-top: 3.375rem;
+  columns: 2;
+}
+
+.card-content-title {
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+  font-family: "Montserrat Semibold";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.0625rem;
+  line-height: 1.3125rem;
+  color: #1c1c27;
+}
+
+.card-content-rating {
+  display: flex;
+  align-items: start;
+  gap: 0.625rem;
+}
+
+.star-icon {
+  width: 1.5625rem;
+  height: 1.4375rem;
+}
+
+.rating {
+  margin: 0;
+  font-family: "Montserrat Semibold";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.0625rem;
+  line-height: 1.3125rem;
+  color: #838383;
+}
+
+.card-content-price {
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: end;
+  font-family: "Montserrat Semibold";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.0625rem;
+  line-height: 1.3125rem;
+  color: #ffa542;
+}
+
+.card-content-price-original {
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: end;
+  font-family: "Montserrat Semibold";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 0.8125rem;
+  line-height: 1rem;
+  text-decoration-line: line-through;
+  color: #ffce7f;
+}
+
+.card-content-button {
+  margin-top: 1rem;
+  text-align: end;
+  font-family: "Montserrat Semibold";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.0625rem;
+  line-height: 1.3125rem;
+  color: #000000;
+  background-color: #ffffff;
+  border: none;
+}
+
+.card-content-button:hover {
+  cursor: pointer;
 }
