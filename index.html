@@ -4,6 +4,8 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
     <title>QPICK</title>
   </head>
 
@@ -14,14 +16,48 @@
           <a href="./" class="logo">QPICK</a>
           <ul class="nav-list">
             <li class="nav-list-item">
-              <a href="#" class="nav-list-item-link"></a>
+              <a href="#" class="nav-list-item-link">
+                <svg class="shopping-cart-icon">
+                  <use href="img/sprite.svg#heart"></use>
+                </svg>
+              </a>
+              <div class="counter"></div>
             </li>
             <li class="nav-list-item">
-              <a href="#" class="nav-list-item-link"></a>
+              <a href="#" class="nav-list-item-link">
+                <svg class="shopping-cart-icon">
+                  <use href="img/sprite.svg#shopping-cart"></use>
+                </svg>
+              </a>
+              <div class="counter"></div>
             </li>
           </ul>
         </nav>
+        <!-- /.nav -->
       </div>
+      <!-- /.container -->
     </header>
+    <!-- /.header -->
+
+    <section class="headphones">
+      <div class="container">
+        <h2 class="headphones-title">Наушники</h2>
+        <div class="headphones-cards">
+          <div class="headphones-card">
+            <picture>
+              <source srcset="img/byz-s8521.webp" />
+              <source srcset="img/byz-s8521.png" />
+              <img
+                class="what-are-we-doing-picture"
+                src="img/byz-s8521.png"
+                alt="headphones"
+              />
+            </picture>
+          </div>
+        </div>
+      </div>
+      <!-- /.container -->
+    </section>
+    <!-- /.headphones -->
   </body>
 </html>

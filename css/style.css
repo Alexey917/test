@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Montserrat Regular";
+  src: url("../fonts/Montserrat-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Montserrat Bold";
+  src: url("../fonts/Montserrat-ExtraBold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Montserrat Semibold";
+  src: url("../fonts/Montserrat-SemiBold.woff") format("woff");
+}
+
+body {
+  background-color: #eaeaea;
+}
+
+.container {
+  margin: auto;
+  max-width: 1110px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 0;
+}
+
+.logo {
+  font-family: "Montserrat Bold";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  color: #101010;
+  text-decoration: none;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+  padding: 0;
+  gap: 1.5625rem;
+  list-style: none;
+}
+
+.nav-list-item {
+  position: relative;
+}
+
+.counter {
+  position: absolute;
+  top: -0.3125rem;
+  left: 0.9375rem;
+  width: 1.0875rem;
+  height: 1.0875rem;
+  border-radius: 50%;
+  background-color: #ffa542;
+}
+
+.shopping-cart-icon {
+  width: 24px;
+  height: 25px;
+}
+
+.heart {
+  width: 23px;
+  height: 20px;
+}
