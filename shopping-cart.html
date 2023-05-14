@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>QPICK</title>
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="container">
+        <nav class="nav">
+          <a href="./" class="logo">QPICK</a>
+          <ul class="nav-list">
+            <li class="nav-list-item">
+              <a href="#" class="nav-list-item-link">
+                <svg class="shopping-cart-icon">
+                  <use href="img/sprite.svg#heart"></use>
+                </svg>
+              </a>
+              <div class="counter"></div>
+            </li>
+            <li class="nav-list-item">
+              <a href="#" class="nav-list-item-link">
+                <svg class="shopping-cart-icon">
+                  <use href="img/sprite.svg#shopping-cart"></use>
+                </svg>
+              </a>
+              <div class="counter"></div>
+            </li>
+          </ul>
+        </nav>
+        <!-- /.nav -->
+      </div>
+      <!-- /.container -->
+    </header>
+    <!-- /.header -->
+
+    <section class="section-shopping-cart">
+      <div class="container">
+        <h2 class="section-shopping-cart-title">Корзина</h2>
+        <div class="section-shopping-cart-cards">
+          <div class="section-shopping-cart-card">
+            <div class="section-shopping-cart-card-image-wrapper">
+              <picture>
+                <source srcset="img/byz-s8521.webp" />
+                <source srcset="img/byz-s8521.png" />
+                <img
+                  class="card-picture shopping-cart-card-picture"
+                  src="img/byz-s8521.png"
+                  alt="headphones"
+                />
+              </picture>
+              <div class="switch">
+                <button class="button-decrease">
+                  <svg class="decrease-icon">
+                    <use href="img/sprite.svg#decrease"></use>
+                  </svg>
+                </button>
+                <div class="switch-counter">1</div>
+                <button class="button-increase">
+                  <svg class="increase-icon">
+                    <use href="img/sprite.svg#increase"></use>
+                  </svg>
+                </button>
+              </div>
+            </div>
+            <!-- /.section-shopping-cart-card-image-wrapper -->
+
+            <ul class="section-shopping-cart-card-title-and-price">
+              <li class="title-and-price-item">Apple BYZ S852I</li>
+              <li class="title-and-price-item title-and-price-item-last">
+                2 927 ₽
+              </li>
+            </ul>
+
+            <ul class="section-shopping-cart-card-delete-and-price">
+              <li class="delete-and-price-item">
+                <svg class="delete-icon">
+                  <use href="img/sprite.svg#delete"></use>
+                </svg>
+              </li>
+              <li class="delete-and-price-item">2 927 ₽</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="total">
+          <ul class="total-list">
+            <li class="total-list-item">ИТОГО</li>
+            <li class="total-list-item">₽ 2 927</li>
+          </ul>
+          <button class="total-button" type="button">
+            Перейти к оформлению
+          </button>
+        </div>
+      </div>
+      <!-- /.container -->
+    </section>
+    <!-- /.section-shopping-cart -->
+
+    <footer class="footer">
+      <div class="container footer-container">
+        <a href="./" class="logo footer-logo">QPICK</a>
+        <ul class="footer-list">
+          <li class="footer-list-item">
+            <a href="#" class="footer-list-item-link">Избранное</a>
+          </li>
+          <li class="footer-list-item">
+            <a href="#" class="footer-list-item-link">Корзина</a>
+          </li>
+          <li class="footer-list-item">
+            <a href="#" class="footer-list-item-link">Контакты</a>
+          </li>
+          <li class="footer-list-item">
+            <a href="#" class="footer-list-item-link">Условия Сервиса</a>
+          </li>
+          <li class="footer-list-item">
+            <ul class="footer-list-languages">
+              <li class="footer-list-laguages-item">
+                <svg class="language-icon">
+                  <use href="img/sprite.svg#language"></use>
+                </svg>
+              </li>
+              <li class="footer-list-laguages-item">
+                <a href="#" class="footer-list-laguages-item-link">Рус</a>
+              </li>
+              <li class="footer-list-laguages-item">
+                <a href="#" class="footer-list-laguages-item-link">Eng</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+
+        <ul class="footer-list social-media">
+          <li class="footer-list-social-media-item">
+            <svg class="vk-icon">
+              <use href="img/sprite.svg#vk"></use>
+            </svg>
+          </li>
+          <li class="footer-list-laguages-item">
+            <svg class="tg-icon">
+              <use href="img/sprite.svg#tg"></use>
+            </svg>
+          </li>
+          <li class="footer-list-laguages-item">
+            <svg class="whatsapp-icon">
+              <use href="img/sprite.svg#whatsapp"></use>
+            </svg>
+          </li>
+        </ul>
+      </div>
+      <!-- /.container -->
+    </footer>
+    <!-- /.footer -->
+
+    <script src="js/main.js"></script>
+  </body>
+</html>

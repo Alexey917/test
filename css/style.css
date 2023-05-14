@@ -205,22 +205,31 @@ body {
 
 .footer {
   margin-top: 1.25rem;
-  padding: 1.8125rem 1.6875rem 0 1.8125rem;
-  background-color: #ffffff;
-  border-radius: 1.875rem 1.875rem 0 0;
 }
 
 .footer-container {
   display: flex;
+  justify-content: space-between;
   align-items: flex-start;
+  padding: 1.8125rem 1.6875rem 2rem 1.8125rem;
+  background-color: #ffffff;
+  border-radius: 1.875rem 1.875rem 0 0;
 }
 
 .footer-list {
-  display: flex;
-  flex-direction: column;
+  columns: 2 auto;
   margin-top: 0;
+  margin-bottom: 0;
   padding: 0;
   list-style: none;
+}
+
+.footer-list-item {
+  margin-bottom: 0.6875rem;
+}
+
+.footer-list-item:nth-child(4) {
+  margin-bottom: 2.1875rem;
 }
 
 .footer-list-item-link {
@@ -265,4 +274,112 @@ body {
   line-height: 1.125rem;
   color: #ffa542;
   text-decoration: none;
+}
+
+.social-media {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1.125rem;
+  margin-top: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.vk-icon {
+  width: 1.9375rem;
+  height: 1.3125rem;
+}
+
+.tg-icon,
+.whatsapp-icon {
+  width: 1.9375rem;
+  height: 1.9375rem;
+}
+
+.section-shopping-cart-card {
+  display: flex;
+  align-items: center;
+  width: 39.5625rem;
+  padding: 1.125rem 1.75rem 1.125rem 1.125rem;
+  background: #ffffff;
+  box-shadow: 0 0 1.25rem rgba(0, 0, 0, 0.1);
+  border-radius: 1.875rem;
+}
+
+.section-shopping-cart-card-image-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.shopping-cart-card-picture {
+  width: 9.125rem;
+  height: 8.5rem;
+}
+
+.switch {
+  display: flex;
+  align-items: center;
+  gap: 1.4375rem;
+  margin-top: 1.0625rem;
+}
+
+.button-decrease,
+.button-increase {
+  border: none;
+  background-color: #ffffff;
+}
+
+.decrease-icon,
+.increase-icon {
+  width: 2.25rem;
+  height: 1.875rem;
+}
+
+.switch-counter {
+  font-family: "Montserrat Semibold";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.0625rem;
+  line-height: 1.3125rem;
+  color: #000000;
+}
+
+.section-shopping-cart-card-title-and-price {
+  padding: 0;
+  list-style: none;
+}
+
+.title-and-price-item {
+  font-family: "Montserrat Medium";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.0625rem;
+  line-height: 1.3125rem;
+  color: #1c1c27;
+}
+
+.title-and-price-item-last {
+  margin-top: 0.75rem;
+  font-family: "Montserrat Semibold";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 0.9375rem;
+  line-height: 1.125rem;
+  color: #aaaaaa;
+}
+
+.section-shopping-cart-card-delete-and-price {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 9rem;
+  padding: 0;
+  list-style: none;
+}
+
+.delete-icon {
+  width: 1.3125rem;
+  height: 1.0625rem;
 }
