@@ -23,14 +23,7 @@
               </a>
               <div class="counter"><span class="text-counter">2</span></div>
             </li>
-            <li class="nav-list-item">
-              <a href="#" class="nav-list-item-link">
-                <svg class="shopping-cart-icon">
-                  <use href="img/sprite.svg#shopping-cart"></use>
-                </svg>
-              </a>
-              <div class="counter"><span class="text-counter"></span></div>
-            </li>
+            <li class="nav-list-item" id="counter-products"></li>
           </ul>
         </nav>
         <!-- /.nav -->
@@ -43,63 +36,12 @@
       <div class="container">
         <h2 class="section-shopping-cart-title">Корзина</h2>
         <div class="shopping-cart-wrapper">
-          <div class="section-shopping-cart-cards">
-            <div class="section-shopping-cart-card">
-              <div class="section-shopping-cart-card-image-wrapper">
-                <picture>
-                  <source srcset="img/byz-s8521.webp" />
-                  <source srcset="img/byz-s8521.png" />
-                  <img
-                    class="card-picture shopping-cart-card-picture"
-                    src="img/byz-s8521.png"
-                    alt="headphones"
-                  />
-                </picture>
-                <div class="switch">
-                  <button class="button-decrease">
-                    <svg class="decrease-icon">
-                      <use href="img/sprite.svg#decrease"></use>
-                    </svg>
-                  </button>
-                  <div class="switch-counter">1</div>
-                  <button class="button-increase">
-                    <svg class="increase-icon">
-                      <use href="img/sprite.svg#increase"></use>
-                    </svg>
-                  </button>
-                </div>
-              </div>
-              <!-- /.section-shopping-cart-card-image-wrapper -->
+          <div
+            class="section-shopping-cart-cards"
+            id="shopping-cart-cards"
+          ></div>
 
-              <ul class="section-shopping-cart-card-title-and-price">
-                <li class="title-and-price-item">Apple BYZ S852I</li>
-                <li class="title-and-price-item title-and-price-item-last">
-                  2 927 ₽
-                </li>
-              </ul>
-
-              <ul class="section-shopping-cart-card-delete-and-price">
-                <li class="delete-and-price-item">
-                  <svg class="delete-icon">
-                    <use href="img/sprite.svg#delete"></use>
-                  </svg>
-                </li>
-                <li class="delete-and-price-item delete-and-price-item-last">
-                  2 927 ₽
-                </li>
-              </ul>
-            </div>
-          </div>
-
-          <div class="total">
-            <ul class="total-list">
-              <li class="total-list-item">ИТОГО</li>
-              <li class="total-list-item">₽ 2 927</li>
-            </ul>
-            <button class="total-button" type="button">
-              <span class="total-button-text">Перейти к оформлению</span>
-            </button>
-          </div>
+          <div class="total" id="total-price"></div>
         </div>
       </div>
       <!-- /.container -->
@@ -165,5 +107,9 @@
     <!-- /.footer -->
 
     <script src="js/main.js"></script>
+    <script src="js/Products.js"></script>
+    <script src="js/LocalStorageUtil.js"></script>
+    <script src="js/Counter.js"></script>
+    <script src="js/Shopping-cart.js"></script>
   </body>
 </html>
